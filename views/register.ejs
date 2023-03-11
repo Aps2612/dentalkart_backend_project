@@ -1,0 +1,25 @@
+<h1>Register</h1>
+<form action ="/register" method ="POST">
+    <div>
+
+    <label for="Email">email</label>
+    <input type ="text" id="email" name="email"
+      required>
+    </div>
+    <div>
+
+    <label for="password">Password</label>
+    <input type ="text" id="password" name="password" 
+      visibility : false,
+      required>
+    </div>
+    <div>
+    
+    <button type ="submit">Register</button>
+</div>
+</form>
+<a href="/login">Login</a>
+
+<% 
+//name in form allows us to access formation in post method by req.body.name
+ %>
