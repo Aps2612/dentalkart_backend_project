@@ -186,7 +186,7 @@ try {
         if (!existingStudent) {
           // Insert row into database
           const newStudent = new Student({ Name,Roll_no,Address,Institute,Course,Email });
-          await newStudent.save();
+        //   await newStudent.save();
           results.push({ success: true, data: newStudent });
         } else {
           results.push({ success: false, data: existingStudent });
